@@ -1,0 +1,35 @@
+section {
+    position: relative;
+    width: 86%;
+    margin: 20px auto;
+}
+table {
+    width: 100%;
+}
+table td {
+    width: 43%;
+}
+table, table th, table tr, table td {
+    border: rgb(182, 173, 204) 2px solid;
+    border-collapse: collapse;
+}
+table th {
+    padding: 0.5%;
+}
+table td {
+    padding: 1.5%;
+}
+div {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+button {
+    /* position: absolute;
+    right: 0px;
+    bottom: 0px; */
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+    background: blueviolet;
+    border-radius: 15px;
+}
