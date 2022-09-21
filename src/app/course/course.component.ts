@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CourseComponent implements OnInit {
 
-  title;
-  description;
-  image;
+  title: String;
+  price: number;
+  description: String;
+  image: String;
 
   constructor() {
 
     this.title = "Curso";
+    this.price = 1500;
     this.description = "Un curso para aprender";
     this.image = "Inserte imágen";
   }

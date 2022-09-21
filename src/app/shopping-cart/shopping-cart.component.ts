@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShoppingCartComponent implements OnInit {
 
-  constructor() { }
+  title: String;
+  subtotal: number;
+  total: number;
+
+  constructor() {
+
+    this.title = "Carrito";
+    this.subtotal = 0;
+    this.total = 0;
+  }
 
   ngOnInit(): void {
   }
