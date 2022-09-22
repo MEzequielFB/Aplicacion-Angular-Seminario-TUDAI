@@ -1,8 +1,28 @@
+section {
+    width: 60%;
+    margin: 20px auto;
+    padding: 0.5%;
+    background: rgb(37, 2, 70);
+}
 ul {
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
-section {
-    width: fit-content;
-    margin: 20px auto;
+ul li {
+    width: 32%;
+    height: fit-content;
+}
+.sin-descuento {
+    border: solid 2px violet;
+}
+.descuento {
+    border: 2px solid lightseagreen;
+}
+article img {
+    width: 100%;
+}
+.curso-descripcion {
+    overflow: hidden;
+    height: 20px;
 }
